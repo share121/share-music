@@ -6,7 +6,8 @@ module.exports = {
     autoprefixer: {},
     'postcss-preset-env': {
       stage: 4,
-      minimumVendorImplementations: 3
+      minimumVendorImplementations: 3,
+      features: { 'nesting-rules': false }
     },
     ...(process.env.NODE_ENV === 'production' ? { cssnano: {} } : {})
   }

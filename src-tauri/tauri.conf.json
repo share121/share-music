@@ -7,7 +7,7 @@
     "withGlobalTauri": false
   },
   "package": {
-    "productName": "realesrgan",
+    "productName": "share-music",
     "version": "2.0.0"
   },
   "tauri": {
@@ -41,7 +41,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.share121.realesrgan",
+      "identifier": "com.share121.share-music",
       "targets": "all",
       "windows": {
         "nsis": {
@@ -51,9 +51,7 @@
         "wix": {
           "language": "zh-CN"
         }
-      },
-      "externalBin": ["binaries/realesrgan-n"],
-      "resources": ["resources/*"]
+      }
     },
     "security": {
       "csp": null
